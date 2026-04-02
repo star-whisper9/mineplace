@@ -10,7 +10,8 @@
 
 一个以 Minecraft 为场景的 WebGL 3D 场景，使用 Three.js 实现。**本项目是几乎纯 AI 的对原推的拙劣模仿，仅供娱乐。我不对代码质量做任何保证！**
 
-> [!IMPORTANT] 原作者联系方式
+> [!IMPORTANT]
+> 原作者联系方式  
 > GitHub：[@antonoko](http://github.com/antonoko)
 > X(Twitter)：[@annaxtime](https://x.com/annaxtime)
 
