@@ -17,7 +17,9 @@ const WATER_SURFACE = 1.35;
 /* ------------------------------------------------------------------ */
 
 const _loader = new THREE.TextureLoader();
-const _atlas = _loader.load('/textures/particle/particles.png');
+const _atlas = _loader.load(
+  `${import.meta.env.BASE_URL}textures/particle/particles.png`,
+);
 _atlas.magFilter = THREE.NearestFilter;
 _atlas.minFilter = THREE.NearestFilter;
 _atlas.colorSpace = THREE.SRGBColorSpace;

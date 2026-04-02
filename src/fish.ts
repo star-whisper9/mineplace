@@ -166,13 +166,14 @@ function randRange([lo, hi]: [number, number]): number {
 /* ------------------------------------------------------------------ */
 
 const loader = new THREE.TextureLoader();
+const BASE_PATH = `${import.meta.env.BASE_URL}textures/entity/fish`;
 
 function buildFish(type: FishType): FishInstance {
   const def = DEFS[type];
   const group = new THREE.Group();
 
   // Texture (pixel-art filtering)
-  const tex = loader.load(`/textures/entity/fish/${def.texture}.png`);
+  const tex = loader.load(`${BASE_PATH}/${def.texture}.png`);
   tex.magFilter = THREE.NearestFilter;
   tex.minFilter = THREE.NearestFilter;
   tex.colorSpace = THREE.SRGBColorSpace;

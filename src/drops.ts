@@ -12,10 +12,12 @@ const FLY_SPEED = 8; // blocks/s
 
 type CropType = 'wheat' | 'carrots' | 'sweetBerry';
 
+const BASE_PATH = `${import.meta.env.BASE_URL}textures/items`;
+
 const ITEM_TEXTURES: Record<CropType, string> = {
-  wheat: '/textures/items/wheat.png',
-  carrots: '/textures/items/carrot.png',
-  sweetBerry: '/textures/items/sweet_berries.png',
+  wheat: `${BASE_PATH}/wheat.png`,
+  carrots: `${BASE_PATH}/carrot.png`,
+  sweetBerry: `${BASE_PATH}/sweet_berries.png`,
 };
 
 /* ------------------------------------------------------------------ */

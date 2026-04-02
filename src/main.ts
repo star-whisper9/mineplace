@@ -115,7 +115,7 @@ function animate() {
   // Update particles (includes auto-bubbles)
   updateParticles(particles, delta, camera);
 
-  // Update dropped items (bob + fly-to-cursor)
+  // Update dropped items (bob + fly-to-camera)
   updateItemDrops(drops, delta, camera);
 
   // Animate water textures

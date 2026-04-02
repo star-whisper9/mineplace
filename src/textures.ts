@@ -3,7 +3,7 @@ import * as THREE from 'three';
 const loader = new THREE.TextureLoader();
 const cache = new Map<string, THREE.Texture>();
 
-const BASE_PATH = '/textures/blocks';
+const BASE_PATH = `${import.meta.env.BASE_URL}textures/blocks`;
 
 function pixelTexture(path: string): THREE.Texture {
   const cached = cache.get(path);
