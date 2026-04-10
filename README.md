@@ -2,7 +2,7 @@
 
 # Mineplace
 
-![Fancy Junk](https://img.shields.io/badge/Project-Fancy%20Junk-ff69b4) [![License](https://img.shields.io/badge/license-WTFPL-blue)](LICENSE) ![Node >=24](https://img.shields.io/badge/node-%3E%3D24-brightgreen) ![Vite](https://img.shields.io/badge/bundler-Vite-brightgreen) ![Three.js](https://img.shields.io/badge/engine-Three.js-orange)
+![Fancy Junk](https://img.shields.io/badge/Project-Fancy%20Junk-ff69b4) [![License](https://img.shields.io/badge/license-WTFPL-blue)](LICENSE) ![Node >=24](https://img.shields.io/badge/node-%3E%3D24-brightgreen) ![Vite](https://img.shields.io/badge/bundler-Vite-brightgreen) ![Three.js](https://img.shields.io/badge/engine-Three.js-orange) ![AI Generated](https://img.shields.io/badge/AI-Generated-red)
 
 > "This project is part of the **Fancy Junk** series: Over-engineered solutions for non-existent problems."
 
